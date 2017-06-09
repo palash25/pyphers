@@ -1,5 +1,6 @@
 #Python program to implement Caesar cipher
-#This script uses dictionaries instead of 'chr()' & 'ord()' function
+
+'''This script uses dictionaries instead of 'chr()' & 'ord()' function'''
 
 #Dictionary to lookup the index of alphabets
 dict1 = {'A' : 1, 'B' : 2, 'C' : 3, 'D' : 4, 'E' : 5,
@@ -49,13 +50,13 @@ def decrypt(message, shift):
 
 def main():
      message = "ALICE KILLED BOB"
-     shift = 7
-     result = encrypt(message, shift)
+     shift = 13
+     result = encrypt(message.upper(), shift)
      print (result)
 
-     message = "HSPJL RPSSLK IVI"
-     shift = 7
-     result = decrypt(message, shift)
+     message = "NYVPR XVYYRQ OBO"
+     shift = 13
+     result = decrypt(message,upper(), shift)
      print (result)
 
 #Executes the main function
