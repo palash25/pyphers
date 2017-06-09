@@ -5,6 +5,25 @@
 '''
 Every character is reversed i.e. 'A' changes to 'Z'
 and vice versa.
+
+                     THE KEY
+
+					   ___
+                      |   |
+					  |   |
+				  ____|   |
+                 /        |
+				 \____    |
+	                  |   |
+					  |   |
+					  |   |
+					  |   |
+				  __--     --__
+				 |     ___     |
+				 |    /   \    |
+				 |    \___/    |
+				  \___________/
+
 *-----------------------------------------------------*
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z *
 * | | | | | | | | | | | | | | | | | | | | | | | | | | *
@@ -12,6 +31,7 @@ and vice versa.
 * V V V V V V V V V V V V V V V V V V V V V V V V V V *
 * Z Y X W V U T S R Q P O N M L K J I H G F E D C B A *
 *-----------------------------------------------------*
+
 It can be thought of as an affine cipher
 with a = 25 = b
 
