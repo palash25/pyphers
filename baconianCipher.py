@@ -10,9 +10,9 @@ in which I,J & U,V have distinct patterns
 '''
 lookup = {'A':'aaaaa', 'B':'aaaab', 'C':'aaaba', 'D':'aaabb', 'E':'aabaa',
         'F':'aabab', 'G':'aabba', 'H':'aabbb', 'I':'abaaa', 'J':'abaab',
-        'K':'abaab', 'L':'ababa', 'M':'ababb', 'N':'abbaa', 'O':'abbab',
-        'P':'abbba', 'Q':'abbbb', 'R':'baaaa', 'S':'baaab', 'T':'baaba',
-        'U':'babaa', 'V':'babab', 'W':'babaa', 'X':'babab', 'Y':'babba', 'Z':'babbb'}
+        'K':'ababa', 'L':'ababb', 'M':'abbaa', 'N':'abbab', 'O':'abbba',
+        'P':'abbbb', 'Q':'baaaa', 'R':'baaab', 'S':'baaba', 'T':'baabb',
+        'U':'babaa', 'V':'babab', 'W':'babba', 'X':'babbb', 'Y':'bbaaa', 'Z':'bbaab'}
 
 #Function to encrypt the string according to the cipher provided
 def encrypt(message):
@@ -61,7 +61,7 @@ def main():
      result = encrypt(message.upper())
      print (result)
 
-     message = "aaaaaababaabaaaaaabaaabaa abaababaaaababaababaaabaaaaabb aaaababbabaaaab"
+     message = "aaaaaababbabaaaaaabaaabaa ababaabaaaababbababbaabaaaaabb aaaababbbaaaaab"
      result = decrypt(message.lower())
      print (result)
 
