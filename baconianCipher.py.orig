@@ -12,7 +12,7 @@ lookup = {'A': 'aaaaa', 'B': 'aaaab', 'C': 'aaaba', 'D': 'aaabb', 'E': 'aabaa',
           'F': 'aabab', 'G': 'aabba', 'H': 'aabbb', 'I': 'abaaa', 'J': 'abaab',
           'K': 'ababa', 'L': 'ababb', 'M': 'abbaa', 'N': 'abbab', 'O': 'abbba',
           'P': 'abbbb', 'Q': 'baaaa', 'R': 'baaab', 'S': 'baaba', 'T': 'baabb',
-          'U': 'babaa', 'V': 'babab', 'W': 'babba', 'X': 'babbb', 'Y': 'bbaaa',
+          'U': 'babaa', 'V': 'babab', 'W': 'babba', 'X': 'babbb', 'Y': 'bbaaa', 
           'Z': 'bbaab'}
 
 # Function to encrypt the string according to the cipher provided
@@ -48,9 +48,9 @@ def decrypt(message):
             # checking for space as the first character of the substring
             if(substr[0] != ' '):
                 '''
-                This statement gets us the key(plaintext)
+                This statement gets us the key(plaintext) 
                 using the values(ciphertext)
-                Just the reverse of what we were
+                Just the reverse of what we were 
                 doing in encrypt function
                 '''
                 decipher += list(lookup.keys()

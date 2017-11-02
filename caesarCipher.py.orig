@@ -26,7 +26,7 @@ def encrypt(message, shift):
         if(letter != ' '):
             # looks up the dictionary and adds the shift to the index
             num = (dict1[letter] + shift) % 26
-            # looks up the second dictionary for the
+            # looks up the second dictionary for the 
             # shifted alphabets and adds them
             cipher += dict2[num]
         else:
@@ -45,8 +45,7 @@ def decrypt(message, shift):
         if(letter != ' '):
             # looks up the dictionary and subtracts the shift to the index
             num = (dict1[letter] - shift + 26) % 26
-            # looks up the second dictionary for the
-            # shifted alphabets and adds them
+            # looks up the second dictionary for the shifted alphabets and adds them
             decipher += dict2[num]
         else:
             # adds space

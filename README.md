@@ -1,4 +1,5 @@
 ## Pyphers
+[![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 ### Ciphers written in Python
 This repository contains various substitution ciphers coded in Python.
 ![image](https://raw.githubusercontent.com/palash25/pyphers/master/assets/img.jpg)
@@ -17,3 +18,6 @@ This repository contains the implementations of the following ciphers.
 
 -----
 The rest of the ciphers are still in pipeline.
+
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) by [Palash Nigam](https://github.com/palash25/)
