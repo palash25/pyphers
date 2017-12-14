@@ -16,6 +16,7 @@ This repository contains the implementations of the following ciphers.
 * Baconian Cipher - Read my article on [Baconian Cipher](http://www.geeksforgeeks.org/baconian-cipher/)
 * Morse Code Translator - Read my article on [Morse Code Translator In Python](http://www.geeksforgeeks.org/morse-code-translator-python/)
 * Vigenère Cipher - Read explaination for this on [Vigenère Cipher](http://www.geeksforgeeks.org/vigenere-cipher/)
+* Playfair Cipher - Read the explanation of [Playfair cipher](http://practicalcryptography.com/ciphers/playfair-cipher/)
 -----
 The rest of the ciphers are still in pipeline.
 
