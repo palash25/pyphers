@@ -33,8 +33,7 @@ def message_to_digraphs(message_original):
 	for e in message_original:
 		message.append(e)
 
-	#Delete space
-	for unused in range(len(message)):
+		
 		if " " in message:
 			message.remove(" ")
 
@@ -53,7 +52,6 @@ def message_to_digraphs(message_original):
 	#Grouping
 	i=0
 	new=[]
-	for x in xrange(1,len(message)/2+1):
 		new.append(message[i:i+2])
 		i=i+2
 	return new
@@ -99,7 +97,6 @@ def encrypt(message, key):
 def cipher_to_digraphs(cipher):
 	i=0
 	new=[]
-	for x in range(len(cipher)/2):
 		new.append(cipher[i:i+2])
 		i=i+2
 	return new
@@ -130,7 +127,6 @@ def decrypt(cipher):
 			plaintext.append(key_matrix[p1][q2])
 			plaintext.append(key_matrix[p2][q1])
 
-	for unused in range(len(plaintext)):
 		if "X" in plaintext:
 			plaintext.remove("X")
 
