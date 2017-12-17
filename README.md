@@ -17,6 +17,7 @@ This repository contains the implementations of the following ciphers.
 * Morse Code Translator - Read my article on [Morse Code Translator In Python](http://www.geeksforgeeks.org/morse-code-translator-python/)
 * Vigenère Cipher - Read explaination for this on [Vigenère Cipher](http://www.geeksforgeeks.org/vigenere-cipher/)
 * Affine Cipher - Read explaination for this on [Affine Cipher](http://www.geeksforgeeks.org/implementation-affine-cipher/)
+* Playfair Cipher - Read the explanation of [Playfair cipher](http://practicalcryptography.com/ciphers/playfair-cipher/)
 -----
 The rest of the ciphers are still in pipeline.
 
