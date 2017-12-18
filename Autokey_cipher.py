@@ -17,7 +17,6 @@ dict2 = {0: 'A', 1: 'B', 2: 'C', 3: 'D', 4: 'E',
 
 # This function generates the key
 def generate_key(message, key):
-    x = len(message)
     i = 0
     while True:
         if len(key) == len(message):
