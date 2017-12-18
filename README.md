@@ -18,6 +18,7 @@ This repository contains the implementations of the following ciphers.
 * Vigenère Cipher - Read explaination for this on [Vigenère Cipher](http://www.geeksforgeeks.org/vigenere-cipher/)
 * Affine Cipher - Read explaination for this on [Affine Cipher](http://www.geeksforgeeks.org/implementation-affine-cipher/)
 * Beaufort Cipher
+* Autokey Cipher - Read explaination for this on [Autokey Cipher](http://practicalcryptography.com/ciphers/autokey-cipher/) 
 -----
 The rest of the ciphers are still in pipeline.
 
